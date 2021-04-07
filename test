@@ -1,1 +1,142 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T08:33:58.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ORIFoHBSiux-TM-YwJ5p" version="14.5.8" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-07T12:58:31.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="XN5CHviqFG9qySn5O2Hf" version="14.5.8" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="983" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="车" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="80" width="46" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="18" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="mqtt" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="80" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="20" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="topic: " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118" y="160" as="sourcePoint" />
+            <mxPoint x="230" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-1" value="kafka" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-1">
+          <mxGeometry x="20" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-3" value="planck" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="452" y="80" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-3">
+          <mxGeometry x="20" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-5" value="MongoDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="571" y="80" width="60" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-5">
+          <mxGeometry x="25" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-9" value="转发 topic: " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="170" as="sourcePoint" />
+            <mxPoint x="350" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-10" value="topic: " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="472" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-12" value="存储meta" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="483" y="190" as="sourcePoint" />
+            <mxPoint x="595" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-17" value="车" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="46" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-18" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-17">
+          <mxGeometry x="18" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-19" value="planck" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="46" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-19">
+          <mxGeometry x="18" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-21" value="cKafka" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="46" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-21">
+          <mxGeometry x="18" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-23" value="云函数" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="360" width="46" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-23">
+          <mxGeometry x="18" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-25" value="cos" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="360" width="46" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-26" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-25">
+          <mxGeometry x="18" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-27" value="MongoDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="581" y="360" width="55" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-28" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-27">
+          <mxGeometry x="22.5" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-29" value="cumber" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="46" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="GMFQBODO65ia1RyiEnHP-29">
+          <mxGeometry x="18" y="70" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-31" value="上传文件" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="GMFQBODO65ia1RyiEnHP-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119" y="440" as="sourcePoint" />
+            <mxPoint x="199" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-33" value="上传完成 触发" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="216" y="450" as="sourcePoint" />
+            <mxPoint x="301" y="449.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-34" value="topic: " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.272;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GMFQBODO65ia1RyiEnHP-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312.5" y="459.6599999999999" as="sourcePoint" />
+            <mxPoint x="397.5" y="459.6599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-35" value="topic: " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.134;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GMFQBODO65ia1RyiEnHP-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="417" y="469.9999999999999" as="sourcePoint" />
+            <mxPoint x="502" y="469.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-36" value="更新meta" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="479.9999999999999" as="sourcePoint" />
+            <mxPoint x="605" y="479.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMFQBODO65ia1RyiEnHP-37" value="监听mongo " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="614" y="490" as="sourcePoint" />
+            <mxPoint x="699" y="489.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
